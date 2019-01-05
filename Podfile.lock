@@ -1,27 +1,22 @@
 PODS:
-  - FMDB/common (2.5)
-  - FMDB/SQLCipher (2.5):
-    - FMDB/common
-    - SQLCipher
-  - JPFPSStatus (0.0.2)
-  - NetworkEye (1.0.1):
-    - FMDB/SQLCipher (~> 2.5)
-  - SQLCipher (3.1.0):
-    - SQLCipher/standard (= 3.1.0)
-  - SQLCipher/common (3.1.0)
-  - SQLCipher/standard (3.1.0):
-    - SQLCipher/common
+  - JPFPSStatus (0.1.1)
+  - NetworkEye (1.0.6):
+    - NetworkEye/standard (= 1.0.6)
+  - NetworkEye/standard (1.0.6)
 
 DEPENDENCIES:
-  - JPFPSStatus (~> 0.0.2)
-  - NetworkEye (~> 1.0.1)
+  - JPFPSStatus (~> 0.1)
+  - NetworkEye (~> 1.0.6)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JPFPSStatus
+    - NetworkEye
 
 SPEC CHECKSUMS:
-  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
-  JPFPSStatus: 11de6027b4cbebfeee0c939dfe08f5ec124a0965
-  NetworkEye: e9345b8a9c369543ab86f9b9f8a88b206d1fd94c
-  SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
+  JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
+  NetworkEye: 54afcde161ab50e407445b86abd7350f3cd08533
 
-PODFILE CHECKSUM: 8a6191373951982bb645b2e0ef6a80c58d6a4890
+PODFILE CHECKSUM: f41c9f92d513f3911a6b7be42a50c045428cd0c3
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.5.0

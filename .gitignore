@@ -41,3 +41,6 @@ Podfile.lock
 # Carthage/Checkouts
 
 Carthage/Build
+
+# Appcode setting
+.idea/

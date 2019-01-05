@@ -215,7 +215,10 @@
             repoModel.name=array[1];
             RepositoryDetailViewController *repoViewController=[[RepositoryDetailViewController alloc] init];
             repoViewController.model=repoModel;
-            [((UITabBarController *)(self.window.rootViewController)).selectedViewController pushViewController:repoViewController animated:YES];
+            UINavigationController *controller = ((UITabBarController *)(self.window.rootViewController)).selectedViewController;
+            if ([controller respondsToSelector:@selector(pushViewController:animated:)]) {
+                [controller pushViewController:repoViewController animated:YES];
+            }
         }
         return YES;
     }
